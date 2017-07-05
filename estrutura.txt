@@ -1,0 +1,18 @@
+http://bootstrapbay.com/theme/kailo-ecommerce-bootstrap-template-BB3BF54
+
+estrutura
+
+home 
+sobre
+
+produtos(4 por linha com link para mais / categorizar){
+	lancamentos
+	mais vendidos
+	promocoes
+}
+
+principais clientes
+um bloco de 4 clientes
+contato (formulario)
+footer (redes sociais /tel - email/ botao pro topo)
+

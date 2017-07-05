@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+
+/* layout base inicio */
+body {
+    padding-top: 86px;
+    background-color: #f8f8ff;
+    line-height:1.80em;
+}
+
+h1{
+	color: #0060a4;
+	font-weight: 500;
+	letter-spacing: .1em;
+}
+
+.link-invisivel {
+    position: absolute;
+    text-indent: -9999px;
+}
+
+/* teste navbar inicio */
+
+
+/* teste navbar fim */
+
+.navbar-default{
+	padding: 1.2em;
+	box-shadow:0 1px 3px rgba(0,0,0,.12);
+	font-family: sans-serif;
+}
+
+
+.navbar-default .navbar-nav > li > a{
+	font-weight:500;
+
+}
+
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #0060a4;
+}
+
+a.navbar-brand{
+	padding-bottom: .1em;
+}
+
+
+/* layout base fim */
+h1,h2,h3,h4,h5{
+	font-family: sans-serif;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+/* layout header inicio */
+
+/* layout header fim */
+
+/* layout clientes inicio */
+#clientes{
+
+}
+
+.img-clientes{
+	opacity: 0.6;
+	padding: 3em;
+}
+
+.img-clientes:hover{
+	opacity: 1;
+	color: #101010;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	background-color: #5689ac;
+}
+
+/* layout clientes fim */
+
+/* layout sobre inicio */
+
+#sobre{
+		box-shadow:0 1px 2px rgba(0,0,0,.12);
+}
+
+.img-sobre{
+	background-image: url(../imagens/sobre.jpg);
+	background-repeat: no-repeat;
+	/*height: 27.99em;*/
+	height: 34.500em;
+	}
+
+.texto-sobre{
+	background-color: #5689ac;
+/*	padding: 3em;
+	/*height: 100%;*/
+	height: 34.500em;
+	color: #DEDEDE;
+	font-weight: 200;
+	font-size: 1em;
+
+}
+
+.texto-sobre h2{
+	color: #343746;
+	font-weight: 300;
+}
+
+.texto-sobre h4{
+	line-height: 1em;
+	font-weight: 300;
+}
+
+.texto-sobre ul li{
+	line-height: 2em;
+	list-style: none;
+}
+
+/* layout sobre fim */
+
+/* contato inicio*/
+#contato{
+ /*   background: url(../imagens/map-bg.png) no-repeat center fixed;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+   */
+    padding-bottom: 3em;
+}
+
+#contato h1{
+	color:  #0060a4;
+	border-bottom-color:  #DEDEDE;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+/*	text-transform: uppercase; */
+}
+
+#contato label{
+/*	text-transform: uppercase; */
+	color: #4C4C4C;
+}
+
+#contato input{
+
+	border-color: #0060a4;
+	color:  #101010;
+	height: 3em;
+	background-color: #f8f8ff;
+	font-size: 1.1em;
+}
+
+#contato textarea{
+	border-color: #0060a4;
+	color:  #101010;
+	background-color: #f8f8ff;
+}
+
+.btn-primary{
+    background-color: #0060a4;
+  /*  border-radius: 15px;*/
+ /*   text-transform: uppercase; */
+    border-color: #5689ac;
+ }
+
+.btn-primary:hover{
+	background-color:#1f1a17;
+	border-color: #0060a4;
+}
+
+/* contato fim */
+
+/*footer inicio */
+
+footer {
+    clear: both;
+    background-color:#1f1a17; /*  #27272F;*/
+    padding: 2em;
+    box-shadow:0 1px 1px rgba(0,0,0,.12);
+}
+
+footer h3 {
+    text-align: left;
+    padding-left: .3em;
+    color: #0060a4;
+  /*  text-transform: uppercase;
+    text-shadow: 1px 1px #DEDEDE;*/
+}
+
+footer p {
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: 1.4em;
+    text-align: left;
+    /*    color: #f8f8ff;*/
+    color: #DEDEDE;
+}
+
+footer span {
+    /*    color: #f8f8ff;*/
+    color: #0060a4;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+footer span a {
+	color: #DEDEDE;
+}
+
+footer span a:hover{
+	color: #0060a4;
+	text-decoration: none;
+}
+
+.social{
+	font-size: 2em;
+	color:  #DEDEDE;
+	opacity: 0.5;
+	padding-right: .1em;
+}
+
+.social:hover{
+	color: #f8f8ff;
+	opacity: 1;
+	text-decoration: none;
+}
+
+footer .thumbnail{
+	box-shadow: 0 0 3px rgba(0,0,0,0.4);
+	background-color:#25211e;
+	border-radius: 3px;
+	height: 10em;
+	border-color: #25211e;
+	margin-right: 2em;
+
+}
+
+footer .caption{
+
+	background-color:  #221e1b;
+	border-top: 1px;
+	border-top-style: solid ;
+	border-top-width: 400;
+	border-top-color: #0060a4;
+ 	height: 5em;
+}
+
+/* footer estilo */
+.footer-estilo{
+	padding: 0em !important;
+	height:auto !important;
+	background-color:#25211e;
+	box-shadow:0 1px 1px rgba(0,0,0,.12);
+
+}
+
+.footer-estilo span{
+	color: #0060a4;
+	text-transform: none !important;
+}
+
+.footer-estilo a{
+	color: #0060a4;
+	text-transform: none !important;
+}
+
+.footer-estilo .glyphicon{
+    font-size: 3em;
+    opacity: 0.5;
+    padding-top: 1em;
+}
+
+.footer-estilo .glyphicon:hover {
+    color: rgba(255, 255, 255, 0.17);
+    opacity: 1;
+    text-decoration: none;
+}
+
+/*footer fim*/
+
+/* produtos inicio */
+#produtos h1{
+	color:  #0060a4;
+	border-bottom-color:  #DEDEDE;
+	border-bottom-width: 2px;
+	border-bottom-style:solid;
+}
+
+.img-thumbnail-photo-top {
+	margin-top: 30px;
+	padding: 5px;
+	margin-bottom: 27px;
+}
+
+.thumb-prod {
+	border: 1px solid #E9E9E9;
+	border-radius: 0;
+	margin-bottom: 0;
+	background-color:  #5689ac;
+	padding: 0;
+}
+
+.cap-prod .prod-nome {
+    font-size: 18px;
+	color: #343746;
+	margin-top: 18px;
+	padding-bottom:12px;
+	text-align: left;
+ 	letter-spacing: 0.1em;
+	line-height: 1.7em;
+	font-weight: 400;
+}
+
+.cap-prod .job-title {
+	font-size: 14px;
+	color: white;
+	text-align: left;
+/*	font-family: 'Quattrocento', serif; */
+	letter-spacing:0;
+}
+
+.cap-prod p {
+    font-size: 15px;
+	color: #DEDEDE;
+	margin-bottom: 12px;
+	padding-top: 0;
+	text-align: left;
+	line-height: 1.7em;
+/*	font-family: 'Quattrocento', serif;	*/
+}
+
+/* produtos fim */
+
+/* sidebar inicio */
+.sidebar{
+    background-color:#DEDEDE;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5); */
+    font-family: sans-serif;
+
+}
+
+.sidebar a{
+    color: #5689ac;
+}
+
+.sidebar-titulo{
+    text-shadow: 0px 1px #060808;
+    padding-top:4px;
+    padding-bottom: 4px;
+
+}
+
+.sidebar ul li{
+    color: #7A9DA1;
+    width: 13em;
+}
+
+.sidebar ul li a:hover{
+    background-color: #5689ac;
+    color: #fff;
+    border: 1px;
+    border-radius: 2px;
+    opacity: 0.8;
+    font-weight: 200;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    transition: background-color 1000ms linear;
+    background-image: url(../imagens/bg.png);
+}
+
+.sidebar-mobile{
+	width:  100% !important;
+}
+
+
+.sidebar-mobile ul li{
+	width:  100% !important;
+	text-align: center;
+}
+
+
+/* sidebar fim */
